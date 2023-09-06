@@ -1,0 +1,19 @@
+/*
+ The issue with this code was that, the for loop was iterating from i=0 to i<=numbers.length. However, for i=5 there
+exists no element in the fifth index posiiton in the array (since arraysare zero-indexed). Therefore, the code will give a 
+ArrayIndexOutOfBoundsExceptionk. The corrected code is implemenetd below.
+*/
+
+
+public class ArrayManipulation {
+
+    public static void main(String[] args) {
+        int[] numbers = {1, 2, 3, 4, 5};
+
+        for (int i = 0; i <numbers.length; i++) {
+            System.out.println(numbers[i]);
+        }
+    }
+
+    
+}
