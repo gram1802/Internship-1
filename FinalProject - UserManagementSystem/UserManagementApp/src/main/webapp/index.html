@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Home Page</title>
+</head>
+<body>
+<h1 style="text-align:center; color : orchid;">Registration Form</h1>
+<form action="register" method="post">
+	
+	<table align="center">
+		<tr>
+			<td>Name</td>
+			<td><input type="text" name="name"></td>
+		</tr>
+		<tr>
+			<td>Email</td>
+			<td><input type="text" style="width:200px" name="email"></td>
+		</tr>
+		<tr>
+			<td>Mobile</td>
+			<td><input type="text" name="mobile"></td>
+		</tr>
+		<tr>
+			<td>DOB</td>
+			<td><input type="date" name="date"></td>
+		</tr>
+		<tr>
+			<td>City</td>
+			<td><select name="city">
+				<option value="Pune">Pune</option>
+				<option value="Bangalore">Bangalore</option>
+				<option value="Mumbai">Mumbai</option>
+				<option value="Delhi">Delhi</option>
+				<option value="Hyderbad">Hyderbad</option>
+			</select></td>
+		</tr>
+		<tr>
+			<td>Gender</td>
+			<td><input type="radio" name="gender" value="female">Female
+			<input type="radio" name="gender" value="male">Male</td>
+		</tr>
+		<tr>
+			<td><button type="submit" name="submit">Register</button></td>
+		</tr>
+		
+	
+	</table>
+</form>
+	<br/>
+	<div style="text-align: center;">
+    <a href="showdata">
+        <button style="width : 275px">Show Users</button>
+    </a>
+</div>
+
+
+</body>
+</html>
